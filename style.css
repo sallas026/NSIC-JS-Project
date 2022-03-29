@@ -1,0 +1,71 @@
+body,
+html {
+  /* height: 100%;
+  margin: 0; */
+  /* Full height */
+  /* height: 100%; */
+  /* Center and scale the image nicely */
+  background-color: light-grey;
+}
+
+.container {
+}
+
+.heading1 {
+  text-align: center;
+  font-size:1rem;
+}
+
+.unorderedlist ul {
+  position: absolute;
+  padding: 0;
+  left: 0;
+  display: none;
+  /* hides sublists */
+}
+
+.unorderedlist li:hover ul ul {
+  display: none;
+}
+
+.unorderedlist {
+  list-style: none inside;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.unorderedlist li {
+  display: block;
+  position: relative;
+  float: left;
+  font-size: 1.5rem;
+}
+
+.unorderedlist li a {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  width: 200px;
+  line-height: 35px;
+}
+
+.unorderedlist li li a {
+  font-size: 80%;
+}
+
+/* smaller font size for sub menu items */
+
+.unorderedlist li:hover {
+  background: #dfa584;
+}
+
+.unorderedlist li:hover ul {
+  display: block;
+}
+
+.unorderedlist li li:hover ul {
+  display: block;
+  margin-left: 200px;
+  margin-top: -35px;
+}
